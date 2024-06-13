@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#bullet{
+    position: relative;
+    color: white;
+}
+#bullet img{
+    width: 100%;
+}
+#bullet div{
+    position: absolute;
+    top: 42%;
+    left: 7%;
+    font-size: 20px;
+    
+}
+#bullet div button{
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+}
+#bullet h1{
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#news{
+  background-color: black;
+  color:white;
+  
+}
+#news h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 0px;
+}
+#news #bikes{
+    display: flex;
+}
+#news #bikes div{
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+#news #bikes div img{
+    width: 100%;
+}
+#news #bikes div p{
+    position: absolute;
+    color:white;
+    margin: 20px;
+    top: 68%;
+    font-weight: 600;
+    line-height: 16px
+}
+#news #bikes div img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+
+}
+#header1{
+    background-color: #212121;
+    color: white;
+}
+#header1 ul button{
+    position: absolute;
+    padding: 4px;
+    top: 293%;
+    right: 14%;
+    width: 10%;
+}
+#header1 ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1.2rem;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0px;
+}
+#header1 ul li{
+    list-style-type: none;
+}
+#header1 ul .red:hover{
+    color: red;
+}
+#images img{
+    width: 100%;
+}
+#header2{
+    background-color: #212121;
+    color: white;
+}
+#header2 ul button{
+    margin-left: 90px;
+    position: absolute;
+    padding: 4px;
+    top: 350%;
+    width: 13%;
+}
+#header2 ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0px;
+}
+#header2 ul li{
+    list-style-type: none;
+}
+#header2 ul .red:hover{
+    color: red;
+}
+#images1 img{
+    width: 100%;
+}
+#header3{
+    background-color: #212121;
+    color: white;
+}
+#header3 ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0px;
+}
+#header3 ul li{
+    list-style-type: none;
+}
+#header3 ul .red:hover{
+    color: red;
+}
+#images2 img{
+    width: 100%;
+}
+#header4{
+    background-color: #212121;
+    color: white;
+}
+#header4 ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0px;
+}
+#header4 ul li{
+    list-style-type: none;
+}
+#header4 ul .red:hover{
+    color: red;
+}
+#images3 img{
+    width: 100%;
+}
+#header5{
+    background-color: #212121;
+    color: white;
+}
+#header5 ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0px;
+}
+#header5 ul li{
+    list-style-type: none;
+}
+#header5 ul .red:hover{
+    color: red;
+}
+#images4 img{
+    width: 100%;
+}
